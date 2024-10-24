@@ -10,7 +10,31 @@
 
 // TULIS SCRIPT KAMU DI SINI
 
+function calculateKomisi (nilaiKontrak) {
+  if (nilaiKontrak >= 5000000){
+    return nilaiKontrak * 5 / 100
+  }
+  else if (nilaiKontrak >= 1000000 && nilaiKontrak <=5000000){
+    return 100000
+  }
+  else{
+    return 0
+  }
+   
+}
+console.log('komisi sejumlah Rp '+(calculateKomisi(5000000))+' ')
+
+
+// function convert(param) {
+//   //   converter dari jam ke detik
+//       return param * 3600;
+//   }
+//   console.log ('3jam, sama dengan '+(convert(3))+' detik')
+
+
 
 
 // JANGAN HAPUS / UBAH SCRIPT DI BAWAH
+
 module.exports = calculateKomisi
+
