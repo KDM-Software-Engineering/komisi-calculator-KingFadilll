@@ -24,16 +24,6 @@ function calculateKomisi (nilaiKontrak) {
 }
 console.log('komisi sejumlah Rp '+(calculateKomisi(5000000))+' ')
 
-
-// function convert(param) {
-//   //   converter dari jam ke detik
-//       return param * 3600;
-//   }
-//   console.log ('3jam, sama dengan '+(convert(3))+' detik')
-
-
-
-
 // JANGAN HAPUS / UBAH SCRIPT DI BAWAH
 
 module.exports = calculateKomisi
